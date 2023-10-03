@@ -1,0 +1,13 @@
+.sales-by-date-data {
+  display: flex;
+  align-items: center;
+}
+
+.sales-by-date-quantity {
+  font-size: 36px;
+  color: var(--light-color);
+}
+
+.sales-by-date-quantity-label {
+  color: var(--grey-light-50-color);
+}
