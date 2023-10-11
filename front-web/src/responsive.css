@@ -1,0 +1,98 @@
+@media screen and (max-width: 1200px) {
+  /* abaixo de 1200 vai aplicar isso */
+  .app-container .sales-overview-container {
+    margin-top: 10px;
+  }
+
+  .app-container .sales-by-date-container {
+    height: 540px;
+  }
+
+  .sales-by-date-container .sales-by-date-data {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sales-by-date-data .sales-by-date-quantity-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .sales-by-date-data .sales-by-date-chart {
+    width: 100%;
+  }
+
+  .sales-overview-container {
+    width: 100%;
+  }
+
+  .filter-container.base-card {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* abaixo de 992 vai aplicar isso */
+  #root .app-container {
+    padding: 0 40px;
+  }
+
+  .filter-container.base-card {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* abaixo de 768 vai aplicar isso */
+
+  .sales-overview-container .pie-chart-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .filter-container.base-card {
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+  }
+
+  .filter-container .filter-input {
+    margin-left: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #root .app-container {
+    padding: 0 10px;
+  }
+
+  .filter-container.base-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  /* abaixo de 576 vai aplicar isso */
+  .sales-overview-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #root .app-container {
+    padding: 0 40px;
+  }
+
+  .filter-container.base-card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+  }
+
+  .filter-container .filter-input {
+    margin-left: 20px;
+    width: 270px;
+  }
+}
